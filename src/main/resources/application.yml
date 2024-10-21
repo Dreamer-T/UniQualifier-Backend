@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://34.129.252.235:3306/UniQualifier?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  mybatis-plus:
+    configuration:
+      map-underscore-to-camel-case: true
+
+server:
+  port: 8080
